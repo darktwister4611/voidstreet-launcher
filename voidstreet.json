@@ -1,0 +1,924 @@
+{
+ "version": "8.1.2",
+ "minecraft": "1.20.1",
+ "forge": "47.4.10",
+ "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+ "launcher": {
+  "version": "1.0.0",
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2/VoidStreetLauncher.exe"
+ },
+ "config": {
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2/config.zip",
+  "sha1": "d3629f08a279cce46495b84e817e2a65499924c5"
+ },
+ "server": {
+  "address": "172.27.216.0:25565",
+  "zerotier": "1d71939404b62602"
+ },
+ "remove": [
+  "BOMD-*.jar",
+  "CerbonsAPI-*.jar"
+ ],
+ "mods": [
+  {
+   "file": "AI-Improvements-1.20-0.5.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4578/262/AI-Improvements-1.20-0.5.2.jar",
+   "sha1": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8",
+   "size": 29553
+  },
+  {
+   "file": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8042/994/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+   "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
+   "size": 53429226
+  },
+  {
+   "file": "Apotheosis-1.20.1-7.4.8.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6461/960/Apotheosis-1.20.1-7.4.8.jar",
+   "sha1": "e508c4724a24f0c80836818fcdd3df6424b1fc40",
+   "size": 2803994
+  },
+  {
+   "file": "ApothicAttributes-1.20.1-1.3.7.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5634/71/ApothicAttributes-1.20.1-1.3.7.jar",
+   "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+   "size": 227511
+  },
+  {
+   "file": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7612/291/AttributeFix-Forge-1.20.1-21.0.5.jar",
+   "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+   "size": 19499
+  },
+  {
+   "file": "AvaritiaNeo-1.20.1-1.1.6.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8442/251/AvaritiaNeo-1.20.1-1.1.6.jar",
+   "sha1": "ea062dd93d7d17b896a4e860c2807bf1216184f8",
+   "size": 1020346
+  },
+  {
+   "file": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6364/65/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+   "sha1": "957adcd274e7c64853c93293976ecdd388a3b7fe",
+   "size": 22381010
+  },
+  {
+   "file": "Botania-1.20.1-455-FORGE.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8702/79/Botania-1.20.1-455-FORGE.jar",
+   "sha1": "ccef027af81977ed0ab9b5eaddd778d15a0a7786",
+   "size": 12217470
+  },
+  {
+   "file": "CasinoCraft_1.20.1_v25.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5942/243/CasinoCraft_1.20.1_v25.jar",
+   "sha1": "13df01ff1ea3472d63cf025a4a8ebcd9e15049aa",
+   "size": 2060409
+  },
+  {
+   "file": "Clumps-forge-1.20.1-12.0.0.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar",
+   "sha1": "97cc669f68dbe812cb77cc3631339334fc28b877",
+   "size": 20299
+  },
+  {
+   "file": "Connector-1.0.0-beta.49+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8367/974/Connector-1.0.0-beta.49%2B1.20.1.jar",
+   "sha1": "328ed70459bbae96e8f9cf4d90d7a4169decaf1d",
+   "size": 5046108
+  },
+  {
+   "file": "CreateDragonsPlus-1.11.8.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8810/578/CreateDragonsPlus-1.11.8.jar",
+   "sha1": "6006df3311cc4fd8e5ea330720a5630d38b1a857",
+   "size": 953963
+  },
+  {
+   "file": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8304/882/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+   "sha1": "aef9a8ebdf0be50b6bd8da8ab4153f5085f71a80",
+   "size": 1144128
+  },
+  {
+   "file": "Dungeon Crawl-1.20.1-2.3.15.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6047/153/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+   "sha1": "e17ebc9be0b3f0646f2de10563b72827442cc866",
+   "size": 758123
+  },
+  {
+   "file": "Dungeon Now Loading-forge-1.20.1-2.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8023/973/Dungeon%20Now%20Loading-forge-1.20.1-2.2.jar",
+   "sha1": "6cb812d282be790ebb9314a5b6e6c610ce19d44a",
+   "size": 85065508
+  },
+  {
+   "file": "DungeonsArise-1.20.x-2.1.58-release.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4983/862/DungeonsArise-1.20.x-2.1.58-release.jar",
+   "sha1": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
+   "size": 8762342
+  },
+  {
+   "file": "DungeonsAriseSevenSeas-1.19.2-1.0.2-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4981/372/DungeonsAriseSevenSeas-1.19.2-1.0.2-forge.jar",
+   "sha1": "b585510746697689562f2661313e5f66718e5861",
+   "size": 248171
+  },
+  {
+   "file": "EuphoriaPatcher-1.10.1-r5.9.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8856/683/EuphoriaPatcher-1.10.1-r5.9.1-forge.jar",
+   "sha1": "36f27d7d70cd49e6fc5358922a15a0b5eb138fe4",
+   "size": 4516366
+  },
+  {
+   "file": "Explorify v1.6.5.mod.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8082/824/Explorify%20v1.6.5.mod.jar",
+   "sha1": "5fb28be29200a41b034e423d87823eb19ad651cd",
+   "size": 767884
+  },
+  {
+   "file": "FallingTree-1.20.1-4.3.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5010/620/FallingTree-1.20.1-4.3.4.jar",
+   "sha1": "44d15ae2074b761597e8b8de5846cb2f98f64d25",
+   "size": 420179
+  },
+  {
+   "file": "Flashier Flashlights 1.2.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8453/760/Flashier%20Flashlights%201.2.0.jar",
+   "sha1": "d85e7e8f89e674eb029a1ba2f113a99a8430530b",
+   "size": 3574595
+  },
+  {
+   "file": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5787/839/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "sha1": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7",
+   "size": 87550
+  },
+  {
+   "file": "Incendium_1.20.x_v5.3.5.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5351/562/Incendium_1.20.x_v5.3.5.jar",
+   "sha1": "484556937b1b2dde2682144e7953e79bff717104",
+   "size": 4638945
+  },
+  {
+   "file": "Jade-1.20.1-Forge-11.13.3.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8479/276/Jade-1.20.1-Forge-11.13.3.jar",
+   "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+   "size": 553487
+  },
+  {
+   "file": "JsonThings-1.20.1-0.9.13.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7949/740/JsonThings-1.20.1-0.9.13.jar",
+   "sha1": "80a644b44ae3951813dd6d5b780ce407f7de6faf",
+   "size": 528983
+  },
+  {
+   "file": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4587/24/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+   "sha1": "19dc0c1f9f0a97fae7037f271651300b6850fb92",
+   "size": 24607
+  },
+  {
+   "file": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5057/220/JustEnoughResources-1.20.1-1.4.0.247.jar",
+   "sha1": "2747c58f439c37a01139d35cab59ca1a54114009",
+   "size": 276231
+  },
+  {
+   "file": "L_Enders_Cataclysm-3.31.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8246/47/L_Enders_Cataclysm-3.31.jar",
+   "sha1": "4f1165cb39521292e826b471b4808bb89f0f4f3f",
+   "size": 73916104
+  },
+  {
+   "file": "Lucky77_1.20.1_v04.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5140/501/Lucky77_1.20.1_v04.jar",
+   "sha1": "81993ad3dd053395283f5ad64f7330d531153c52",
+   "size": 231682
+  },
+  {
+   "file": "Mantle-1.20.1-1.11.117.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8809/819/Mantle-1.20.1-1.11.117.jar",
+   "sha1": "0d6af73ad4f11fe685aa466cedd2786b7bc57245",
+   "size": 1652715
+  },
+  {
+   "file": "Mekanism-1.20.1-10.4.16.80.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6552/911/Mekanism-1.20.1-10.4.16.80.jar",
+   "sha1": "b7f12ae710888b01746507a0aa8cb375f5897158",
+   "size": 12558456
+  },
+  {
+   "file": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+   "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+   "size": 76237
+  },
+  {
+   "file": "PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8483/796/PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
+   "sha1": "5ff95e985c51b6916ce726178d58c4e812a6c294",
+   "size": 2154602
+  },
+  {
+   "file": "Patchouli-1.20.1-85-FORGE.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar",
+   "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+   "size": 642732
+  },
+  {
+   "file": "Placebo-1.20.1-8.6.3.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar",
+   "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+   "size": 282474
+  },
+  {
+   "file": "Powah-5.0.11.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6828/54/Powah-5.0.11.jar",
+   "sha1": "f6dca27edc5de2e33de36969622c0ce3060ccd72",
+   "size": 2393933
+  },
+  {
+   "file": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+   "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+   "size": 1342987
+  },
+  {
+   "file": "Quark-4.0-462.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6427/817/Quark-4.0-462.jar",
+   "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+   "size": 14935230
+  },
+  {
+   "file": "TCIntegrations-1.20.1-2.0.25.19.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7811/712/TCIntegrations-1.20.1-2.0.25.19.jar",
+   "sha1": "97e1da463ad7a16f5a25509236c998f06cab5e3d",
+   "size": 2108964
+  },
+  {
+   "file": "TConstruct-1.20.1-3.12.0.220.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8809/959/TConstruct-1.20.1-3.12.0.220.jar",
+   "sha1": "ab20cfeb4a8397295f376a60b45bac705509dce5",
+   "size": 23390475
+  },
+  {
+   "file": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6290/448/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+   "sha1": "3bd99fb59e8b06b04e78b5153790c1e08b2be5dc",
+   "size": 107532
+  },
+  {
+   "file": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5113/211/The_Graveyard_3.1_%28FORGE%29_for_1.20.1.jar",
+   "sha1": "3eace53024d663f159725c8d972d330631f9b974",
+   "size": 10298057
+  },
+  {
+   "file": "The_Undergarden-1.20.1-0.8.14.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5182/632/The_Undergarden-1.20.1-0.8.14.jar",
+   "sha1": "d823f6da5ea81ee09df8038dc5645986b184a451",
+   "size": 45084263
+  },
+  {
+   "file": "TinkersKatanas-1.20.1-1.4.5.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8126/996/TinkersKatanas-1.20.1-1.4.5.jar",
+   "sha1": "87bcddf1166b175b5d1ca3c98909c592365eb466",
+   "size": 856632
+  },
+  {
+   "file": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4923/828/Towns-and-Towers-1.12-Fabric%2BForge.jar",
+   "sha1": "5a28ec56457cf1bf154e993cf73dba0428a7921b",
+   "size": 2864275
+  },
+  {
+   "file": "YungsApi-1.20-Forge-4.0.6.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
+   "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+   "size": 370524
+  },
+  {
+   "file": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+   "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+   "size": 792381
+  },
+  {
+   "file": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4769/63/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+   "sha1": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+   "size": 492998
+  },
+  {
+   "file": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4883/3/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+   "sha1": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f",
+   "size": 1033262
+  },
+  {
+   "file": "Zeta-1.0-31.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7335/229/Zeta-1.0-31.jar",
+   "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+   "size": 1006518
+  },
+  {
+   "file": "ad_astra-forge-1.20.1-1.15.21.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8833/730/ad_astra-forge-1.20.1-1.15.21.jar",
+   "sha1": "562b28ad84cde481f857562c7991a8750b814e24",
+   "size": 7508773
+  },
+  {
+   "file": "amendments-1.20-2.2.6.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8657/397/amendments-1.20-2.2.6.jar",
+   "sha1": "dc79f8c5326b059c8f136765b4bca826147cf2d7",
+   "size": 1315525
+  },
+  {
+   "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+   "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+   "size": 47428
+  },
+  {
+   "file": "appliedcreate-1.20.1-1.1.6.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8424/672/appliedcreate-1.20.1-1.1.6.jar",
+   "sha1": "4c5b21838cf2702ac033e117f9107e0e2dd041b1",
+   "size": 365373
+  },
+  {
+   "file": "appliedenergistics2-forge-15.4.10.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7148/487/appliedenergistics2-forge-15.4.10.jar",
+   "sha1": "ac255a120499f79f8deade474da09e3c00ff9bad",
+   "size": 8495956
+  },
+  {
+   "file": "aquamirae-forge-1.20.1-6.4.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7985/699/aquamirae-forge-1.20.1-6.4.0.jar",
+   "sha1": "f802327ab6c738ff3c29e4b39a28c224ee7b29fa",
+   "size": 19073985
+  },
+  {
+   "file": "architectury-9.2.14-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+   "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+   "size": 580602
+  },
+  {
+   "file": "artifacts-forge-9.5.19.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7903/806/artifacts-forge-9.5.19.jar",
+   "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+   "size": 850974
+  },
+  {
+   "file": "balm-forge-1.20.1-7.3.42.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8545/415/balm-forge-1.20.1-7.3.42.jar",
+   "sha1": "d22394596e9f845c0a9a6e45575dbfbfec6b25d9",
+   "size": 561670
+  },
+  {
+   "file": "block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8123/166/block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+   "sha1": "f27671c93f058053a599e0f2c99ad78e912ecf44",
+   "size": 23963009
+  },
+  {
+   "file": "bloxysstructures-1.16.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5380/798/bloxysstructures-1.16.0.jar",
+   "sha1": "cad66d724142ce62f42382b8640d2e603f8afc1c",
+   "size": 4570588
+  },
+  {
+   "file": "blue_skies-1.20.1-1.3.31.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5010/316/blue_skies-1.20.1-1.3.31.jar",
+   "sha1": "9d86230565f9262e845da2065f138e470eaed44c",
+   "size": 83564111
+  },
+  {
+   "file": "botarium-forge-1.20.1-2.3.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5486/70/botarium-forge-1.20.1-2.3.4.jar",
+   "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b",
+   "size": 157633
+  },
+  {
+   "file": "caelus-forge-3.2.0+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5281/700/caelus-forge-3.2.0%2B1.20.1.jar",
+   "sha1": "fa834f140bf7dce7b67c29b46cb531f4309d3209",
+   "size": 40125
+  },
+  {
+   "file": "call_of_yucutan-1.0.13-forge-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5798/644/call_of_yucutan-1.0.13-forge-1.20.1.jar",
+   "sha1": "63e0e47cfc41dbd591affac52e7787b7122257dc",
+   "size": 3614819
+  },
+  {
+   "file": "carryon-forge-1.20.1-2.1.2.7.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar",
+   "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+   "size": 439457
+  },
+  {
+   "file": "civilian_aviation-1.0.2-1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8137/964/civilian_aviation-1.0.2-1.20.1-forge.jar",
+   "sha1": "17a08314698752e4e440e30452476b522ac5a834",
+   "size": 33097616
+  },
+  {
+   "file": "cloth-config-11.1.136-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+   "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+   "size": 1181413
+  },
+  {
+   "file": "comforts-forge-6.4.0+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5503/516/comforts-forge-6.4.0%2B1.20.1.jar",
+   "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e",
+   "size": 382083
+  },
+  {
+   "file": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6811/804/connectedglass-1.1.14-forge-mc1.20.1.jar",
+   "sha1": "2f65edcf4faed33979d5dec81597b472abf17325",
+   "size": 873714
+  },
+  {
+   "file": "controlflex-0.8.7.1-mc1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8778/978/controlflex-0.8.7.1-mc1.20.1-forge.jar",
+   "sha1": "2727cbe80c49ca24b7fd5ae4fc58fd32c526887e",
+   "size": 6974454
+  },
+  {
+   "file": "corpse-forge-1.20.1-1.0.23.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7018/272/corpse-forge-1.20.1-1.0.23.jar",
+   "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd",
+   "size": 245644
+  },
+  {
+   "file": "create-1.20.1-6.0.8.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7178/761/create-1.20.1-6.0.8.jar",
+   "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+   "size": 19170905
+  },
+  {
+   "file": "create-new-age-1.2.0+forge-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8215/201/create-new-age-1.2.0%2Bforge-mc1.20.1.jar",
+   "sha1": "d84322b22219888a55ad0520150ad3ef784d208a",
+   "size": 1206077
+  },
+  {
+   "file": "create_ad_astra_compat-forge-1.20.1-1.0.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5252/441/create_ad_astra_compat-forge-1.20.1-1.0.0.jar",
+   "sha1": "348f8477b3af519b250e65efbaec8a743c6b89d2",
+   "size": 23401
+  },
+  {
+   "file": "create_interactive-1.2.1_1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7478/572/create_interactive-1.2.1_1.20.1-forge.jar",
+   "sha1": "9f7109809b71754dff91b16e5b43d4a0c308de88",
+   "size": 865144
+  },
+  {
+   "file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8169/547/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+   "sha1": "d9be0ace572fe54be904da1bb0b0cc8711db3b70",
+   "size": 4058306
+  },
+  {
+   "file": "createdieselgenerators-1.20.1-1.3.12.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7932/785/createdieselgenerators-1.20.1-1.3.12.jar",
+   "sha1": "416ea3d5c1190246369bbcfa32e5e86597402264",
+   "size": 3128610
+  },
+  {
+   "file": "cristellib-1.1.6-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5869/180/cristellib-1.1.6-forge.jar",
+   "sha1": "524ecf0f93f28be2f5db21d87dd81bdbc1a450e1",
+   "size": 431318
+  },
+  {
+   "file": "curios-forge-5.14.1+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6418/456/curios-forge-5.14.1%2B1.20.1.jar",
+   "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+   "size": 398066
+  },
+  {
+   "file": "deeperdarker-forge-1.20.1-1.3.3.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5906/86/deeperdarker-forge-1.20.1-1.3.3.jar",
+   "sha1": "12f95fa85c62123140d1962702a97a3bb746bbf5",
+   "size": 17844266
+  },
+  {
+   "file": "deltaboxlib-forge-2.2.0+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6680/592/deltaboxlib-forge-2.2.0%2B1.20.1.jar",
+   "sha1": "8f5cd619b02eaccd936cc6a3e1e47fe558a728b7",
+   "size": 804529
+  },
+  {
+   "file": "dungeons_enhanced-1.20.1-5.4.3.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7069/98/dungeons_enhanced-1.20.1-5.4.3.jar",
+   "sha1": "18a8163d7b9128959091d9cc95d9a14bd1db25bf",
+   "size": 1421681
+  },
+  {
+   "file": "elevatorid-1.20.1-1.9.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6602/224/elevatorid-1.20.1-1.9.1-forge.jar",
+   "sha1": "9117fbb20ce0b3b9abd25e19b3d5987a53be30c9",
+   "size": 187868
+  },
+  {
+   "file": "embeddium-0.3.31+mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5681/725/embeddium-0.3.31%2Bmc1.20.1.jar",
+   "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+   "size": 1320675
+  },
+  {
+   "file": "entity_model_features-3.3.11-1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9064/939/entity_model_features-3.3.11-1.20.1-forge.jar",
+   "sha1": "eaf743492f8a38ea54ff1b27ccec5a0f3db0b60f",
+   "size": 839768
+  },
+  {
+   "file": "entity_texture_features-7.2.5-1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9055/216/entity_texture_features-7.2.5-1.20.1-forge.jar",
+   "sha1": "90d2eb37c8572bc39246b938d3610d30afe7e509",
+   "size": 999301
+  },
+  {
+   "file": "entityculling-forge-1.10.5-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8287/86/entityculling-forge-1.10.5-mc1.20.1.jar",
+   "sha1": "b818f6d792b79f4ec116c89704e70292bd6f72b5",
+   "size": 1590221
+  },
+  {
+   "file": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8641/553/fabric-api-0.92.6%2B1.11.15%2B1.20.1.jar",
+   "sha1": "dbf2d4fcc80895e2c3d56d015a806c94fd3910d0",
+   "size": 3065815
+  },
+  {
+   "file": "fallingleaves-1.20.1-2.1.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6241/90/fallingleaves-1.20.1-2.1.2.jar",
+   "sha1": "b890536f44a5c0a49f2b1f4af91c17d948b4ef4d",
+   "size": 124212
+  },
+  {
+   "file": "firstperson-forge-2.7.3-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8990/468/firstperson-forge-2.7.3-mc1.20.1.jar",
+   "sha1": "229a85332b026a027e960919a263742f1eafbbc2",
+   "size": 1726107
+  },
+  {
+   "file": "framework-forge-1.20.1-0.8.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar",
+   "sha1": "27347879f8760a7bc0b4bd71977abc50e498811c",
+   "size": 383868
+  },
+  {
+   "file": "fusion-1.3.15a-forge-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8822/16/fusion-1.3.15a-forge-mc1.20.1.jar",
+   "sha1": "9c2dbd6a540815bdadb51f098cca6b4c9e72143f",
+   "size": 972886
+  },
+  {
+   "file": "geckolib-forge-1.20.1-4.8.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8285/794/geckolib-forge-1.20.1-4.8.4.jar",
+   "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d",
+   "size": 1038209
+  },
+  {
+   "file": "goblintraders-forge-1.20.1-1.11.5.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6891/922/goblintraders-forge-1.20.1-1.11.5.jar",
+   "sha1": "12bf1775fae7132c4f10ce3f61122bc0a2f171d6",
+   "size": 328727
+  },
+  {
+   "file": "grand-teleport-forge-1.20.1-forge-build300.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8367/233/grand-teleport-forge-1.20.1-forge-build300.jar",
+   "sha1": "d72ac817bba002c830b8aa413a9ec8065c28eed3",
+   "size": 1157845
+  },
+  {
+   "file": "guideme-20.1.15.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8204/776/guideme-20.1.15.jar",
+   "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7",
+   "size": 9414827
+  },
+  {
+   "file": "hexcasting-forge-1.20.1-0.11.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8744/394/hexcasting-forge-1.20.1-0.11.4.jar",
+   "sha1": "73f5b4a049d2132a2daf522451a15793b20100cc",
+   "size": 4131835
+  },
+  {
+   "file": "idas_forge-1.13.0+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7787/515/idas_forge-1.13.0%2B1.20.1.jar",
+   "sha1": "84386b55c1729e8fb62f91211d046fb6d7ef23d2",
+   "size": 14420114
+  },
+  {
+   "file": "immersive_aircraft-1.5.0+1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8865/821/immersive_aircraft-1.5.0%2B1.20.1-forge.jar",
+   "sha1": "dceb59fc5dbfa30625bfa56256480708e0c58419",
+   "size": 2441036
+  },
+  {
+   "file": "inline-forge-1.20.1-1.2.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6556/850/inline-forge-1.20.1-1.2.2.jar",
+   "sha1": "f19ae88f41256a74eed7b08b434d5c4695aaa6dd",
+   "size": 375864
+  },
+  {
+   "file": "integrated_api-forge-1.20.1-1.9.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9151/117/integrated_api-forge-1.20.1-1.9.1.jar",
+   "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
+   "size": 713270
+  },
+  {
+   "file": "integrated_stronghold-1.1.1+1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5178/479/integrated_stronghold-1.1.1%2B1.20.1-forge.jar",
+   "sha1": "bfc95490873ae0563c9df4613f7ad70f3b17b402",
+   "size": 5254608
+  },
+  {
+   "file": "ironfurnaces-1.20.1-4.1.8.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7888/952/ironfurnaces-1.20.1-4.1.8.jar",
+   "sha1": "55386bfd5746bd8588df5d45f19cc964b666afe5",
+   "size": 612921
+  },
+  {
+   "file": "jei-1.20.1-forge-15.56.0.205.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8778/11/jei-1.20.1-forge-15.56.0.205.jar",
+   "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+   "size": 1778129
+  },
+  {
+   "file": "journeymap-forge-1.20.1-6.0.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8764/299/journeymap-forge-1.20.1-6.0.4.jar",
+   "sha1": "bb8502db57ced907e230fe44aea60c794237742a",
+   "size": 4328630
+  },
+  {
+   "file": "justzoom_forge_2.1.1_MC_1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6290/336/justzoom_forge_2.1.1_MC_1.20.1.jar",
+   "sha1": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0",
+   "size": 204574
+  },
+  {
+   "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+   "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+   "size": 625185
+  },
+  {
+   "file": "kotlinforforge-4.12.0-all.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+   "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+   "size": 7442998
+  },
+  {
+   "file": "legendarymonsters-2.2.3 MC 1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8902/349/legendarymonsters-2.2.3%20MC%201.20.1.jar",
+   "sha1": "a805897c0f29923c5bb65fb99c5f2a7fcd999d59",
+   "size": 44954907
+  },
+  {
+   "file": "lionfishapi-3.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8095/554/lionfishapi-3.0.jar",
+   "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+   "size": 101931
+  },
+  {
+   "file": "mcef-forge-2.1.6-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5828/187/mcef-forge-2.1.6-1.20.1.jar",
+   "sha1": "6d9fa1433d509be242d1d74282d02a0fbebde110",
+   "size": 218417
+  },
+  {
+   "file": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7627/954/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+   "sha1": "24f30313977ec61520a2adab321188b51c208d16",
+   "size": 693579
+  },
+  {
+   "file": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7618/714/mcw-doors-1.1.5-mc1.20.1forge.jar",
+   "sha1": "fe6a9eb2fbc78300a6286fd25854c9f087e689a6",
+   "size": 1246753
+  },
+  {
+   "file": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7317/714/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+   "sha1": "214da89b2153d496343bde8626283975e358edbd",
+   "size": 1320692
+  },
+  {
+   "file": "moonlight-1.20-2.16.35-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8820/589/moonlight-1.20-2.16.35-forge.jar",
+   "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
+   "size": 1425229
+  },
+  {
+   "file": "mowziesmobs-1.8.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7815/705/mowziesmobs-1.8.2.jar",
+   "sha1": "25ffcd175cc03650e38e60d3cb7b3e038d9d3345",
+   "size": 36033850
+  },
+  {
+   "file": "musicbox-forge-2.0.2+1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6680/610/musicbox-forge-2.0.2%2B1.20.1.jar",
+   "sha1": "4d8b9e35b60fd35efa7bc47a8a1713d5a3f2c2ef",
+   "size": 170771
+  },
+  {
+   "file": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8925/63/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+   "sha1": "993252c9946e22aa4ba0b28cb5b81183d5bcf50d",
+   "size": 1870649
+  },
+  {
+   "file": "obscure_api-18.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7171/906/obscure_api-18.jar",
+   "sha1": "d395153341a9a732fc80463c475b202d78675e28",
+   "size": 1128392
+  },
+  {
+   "file": "oculus-mc1.20.1-1.8.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
+   "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+   "size": 2851119
+  },
+  {
+   "file": "offlineskins-1.20.1-v1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4592/954/offlineskins-1.20.1-v1.jar",
+   "sha1": "ee0166b3ec3878963dec8d840dc86e3faf53f11a",
+   "size": 93967
+  },
+  {
+   "file": "paucal-0.6.0+1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5687/7/paucal-0.6.0%2B1.20.1-forge.jar",
+   "sha1": "360a748d33bc23674399781992489e10e613e5ea",
+   "size": 283568
+  },
+  {
+   "file": "pneumaticcraft-repressurized-6.0.23+mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8411/196/pneumaticcraft-repressurized-6.0.23%2Bmc1.20.1.jar",
+   "sha1": "5cd378106dacafe24e6a8d6d0096ac2c6a0a4d0f",
+   "size": 10790934
+  },
+  {
+   "file": "refinedstorage-1.12.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4844/585/refinedstorage-1.12.4.jar",
+   "sha1": "ff9e83c81344d0bfe9e0bb53c6df00c7e0a39cf5",
+   "size": 3300191
+  },
+  {
+   "file": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6231/176/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+   "sha1": "597d40920dcc935f963842c817dcc4901862ab14",
+   "size": 136923
+  },
+  {
+   "file": "resourcefullib-forge-1.20.1-2.1.29.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar",
+   "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
+   "size": 432753
+  },
+  {
+   "file": "ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7292/523/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+   "sha1": "3e13ad86b2cc4107b8a18eec1d980ed19cdc37aa",
+   "size": 78625
+  },
+  {
+   "file": "rustic_engineer-1.1.4-forge-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7121/55/rustic_engineer-1.1.4-forge-1.20.1.jar",
+   "sha1": "3ff624293aea7bf4070a5671db334317e14fb6a2",
+   "size": 1726320
+  },
+  {
+   "file": "sculkhorde-1.20.1-0.12.7.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8704/762/sculkhorde-1.20.1-0.12.7.jar",
+   "sha1": "e393ae51dc0801a795469bba29a89efceb0fc131",
+   "size": 15566210
+  },
+  {
+   "file": "silent-lib-1.20.1-8.0.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4585/754/silent-lib-1.20.1-8.0.0.jar",
+   "sha1": "6614c90b3d5b64eaa5509921ee861827c37b9bca",
+   "size": 225949
+  },
+  {
+   "file": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8845/923/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+   "sha1": "9be2c9c53e063890b90bc6b24cce3fc96f7cfa47",
+   "size": 1223451
+  },
+  {
+   "file": "sophisticatedbackpackscreateintegration-1.20.1-0.1.10.167.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8833/910/sophisticatedbackpackscreateintegration-1.20.1-0.1.10.167.jar",
+   "sha1": "64c75a9896698d6c547beb33a71e951bad71fdb1",
+   "size": 98079
+  },
+  {
+   "file": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8839/328/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+   "sha1": "68f35e2930bff5f30340419257b38962df2e0983",
+   "size": 1734797
+  },
+  {
+   "file": "sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8719/374/sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+   "sha1": "0140b377ccba3b932fd30386263e78413a0b96a9",
+   "size": 1867685
+  },
+  {
+   "file": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7032/235/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+   "sha1": "aef2c02392624f0a12475ada809366b12ac9ec52",
+   "size": 206984
+  },
+  {
+   "file": "stalwart-dungeons-1.20.1-1.2.8.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4703/671/stalwart-dungeons-1.20.1-1.2.8.jar",
+   "sha1": "da49b50013deee55861e81664096818357d563ac",
+   "size": 1049721
+  },
+  {
+   "file": "structure_gel-1.20.1-2.16.2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar",
+   "sha1": "ec8c59d2a69eca3249a8da673f572b40b6d59895",
+   "size": 966028
+  },
+  {
+   "file": "supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8677/304/supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar",
+   "sha1": "3d0171588c7d1e4d1ab741dd864763b25dfcd75f",
+   "size": 559476
+  },
+  {
+   "file": "supplementaries-1.20-3.1.43-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7884/611/supplementaries-1.20-3.1.43-forge.jar",
+   "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+   "size": 13667742
+  },
+  {
+   "file": "tfmg-1.0.2f.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7344/584/tfmg-1.0.2f.jar",
+   "sha1": "48e6b058f0d515cbb0e673d823e6e4042f9b1d37",
+   "size": 5343749
+  },
+  {
+   "file": "the_bumblezone-7.13.4+1.20.1-forge.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8548/194/the_bumblezone-7.13.4%2B1.20.1-forge.jar",
+   "sha1": "97e81053128710c98dfe9adc68ce4e67a5b1f5ee",
+   "size": 69351258
+  },
+  {
+   "file": "tinkersjewelry-1.2.0.jar",
+   "url": "https://mediafilez.forgecdn.net/files/6328/912/tinkersjewelry-1.2.0.jar",
+   "sha1": "2be4d27a97004d1fd8ece878c48a5c76712fef06",
+   "size": 1117039
+  },
+  {
+   "file": "tinkersplatinumtungsten-1.1.0-universal-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7736/602/tinkersplatinumtungsten-1.1.0-universal-1.20.1.jar",
+   "sha1": "4875b1c790ff207c54b8a69b1c73c11d5b87b392",
+   "size": 837969
+  },
+  {
+   "file": "torchmaster-20.1.9.jar",
+   "url": "https://mediafilez.forgecdn.net/files/5849/456/torchmaster-20.1.9.jar",
+   "sha1": "9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758",
+   "size": 119348
+  },
+  {
+   "file": "ultris-v5.6.9c.jar",
+   "url": "https://mediafilez.forgecdn.net/files/4882/432/ultris-v5.6.9c.jar",
+   "sha1": "7ddf40d66494e6089dba830acdffc6740adf0f41",
+   "size": 14703606
+  },
+  {
+   "file": "upgrader-8.1.0.jar",
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2/upgrader-8.1.0.jar",
+   "sha1": "aba4c7fdc21505d5a1493b438e9a629c49867023",
+   "size": 15047904
+  },
+  {
+   "file": "valkyrienskies-120-2.4.11.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7906/689/valkyrienskies-120-2.4.11.jar",
+   "sha1": "bd3478fcd43d4168950dfa7e77188d7bb12fd43e",
+   "size": 27752937
+  },
+  {
+   "file": "voicechat-forge-1.20.1-2.6.22.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8601/186/voicechat-forge-1.20.1-2.6.22.jar",
+   "sha1": "cc94c3eecc325ea3066ee3cd8bf57142d1b11762",
+   "size": 4923439
+  },
+  {
+   "file": "waystones-forge-1.20.1-14.1.20.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7682/270/waystones-forge-1.20.1-14.1.20.jar",
+   "sha1": "cde06d0f1e9042fb2e0b536a4d2c5443d129dd51",
+   "size": 533738
+  }
+ ]
+}
