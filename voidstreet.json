@@ -1,15 +1,15 @@
 {
- "version": "8.1.2-7",
+ "version": "8.1.2-8",
  "minecraft": "1.20.1",
  "forge": "47.4.10",
  "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
  "launcher": {
   "version": "1.0.0",
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-7/VoidStreetLauncher.exe"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-8/VoidStreetLauncher.exe"
  },
  "config": {
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-7/config.zip",
-  "sha1": "729f9611511d8819a85d3f6e5706b048aa94dd75"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-8/config.zip",
+  "sha1": "28bf1be0f5205cbaf227d1533c2511063e6c6833"
  },
  "server": {
   "address": "172.27.216.0:25565",
@@ -904,9 +904,9 @@
   },
   {
    "file": "upgrader-8.1.0.jar",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-7/upgrader-8.1.0.jar",
-   "sha1": "cf29f038ba484d446291843db5dba02c286e1a0f",
-   "size": 15340000
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-8/upgrader-8.1.0.jar",
+   "sha1": "41b11a7fcae98c236dd878cb4b89cfbdc8a966ec",
+   "size": 15350227
   },
   {
    "file": "valkyrienskies-120-2.4.11.jar",
