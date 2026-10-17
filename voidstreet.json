@@ -1,15 +1,15 @@
 {
- "version": "8.1.2-12",
+ "version": "8.1.2-13",
  "minecraft": "1.20.1",
  "forge": "47.4.10",
  "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
  "launcher": {
-  "version": "1.0.0",
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-12/VoidStreetLauncher.exe"
+  "version": "1.1.0",
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-13/VoidStreetLauncher.exe"
  },
  "config": {
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-12/config.zip",
-  "sha1": "28bf1be0f5205cbaf227d1533c2511063e6c6833"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-13/config.zip",
+  "sha1": "36b523520d3bd22912db316fedddae4baf0d6c69"
  },
  "server": {
   "address": "172.27.216.0:25565",
@@ -18,6 +18,13 @@
  "remove": [
   "BOMD-*.jar",
   "CerbonsAPI-*.jar"
+ ],
+ "packs": [
+  {
+   "name": "tacz",
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-13/tacz.zip",
+   "sha1": "a3be7d7dc875b53d684ba0862a37dc56a9ad455b"
+  }
  ],
  "mods": [
   {
@@ -321,6 +328,12 @@
    "size": 1033262
   },
   {
+   "file": "ZeroContact-main-build-78-375cdf4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9087/225/ZeroContact-main-build-78-375cdf4.jar",
+   "sha1": "132fc9397af4fa15f8f3c88d0506404229b14653",
+   "size": 3504570
+  },
+  {
    "file": "Zeta-1.0-31.jar",
    "url": "https://mediafilez.forgecdn.net/files/7335/229/Zeta-1.0-31.jar",
    "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
@@ -517,6 +530,12 @@
    "url": "https://mediafilez.forgecdn.net/files/6680/592/deltaboxlib-forge-2.2.0%2B1.20.1.jar",
    "sha1": "8f5cd619b02eaccd936cc6a3e1e47fe558a728b7",
    "size": 804529
+  },
+  {
+   "file": "dsrebirth-1.20.1-1.4.1.jar",
+   "url": "https://cdn.modrinth.com/data/N4oljjup/versions/WfO0cipT/dsrebirth-1.20.1-1.4.1.jar",
+   "sha1": "c4bca8dbb4d938ae6ade4b6fc1d795bd0caf7516",
+   "size": 27196693
   },
   {
    "file": "dungeons_enhanced-1.20.1-5.4.3.jar",
@@ -867,6 +886,24 @@
    "size": 13667742
   },
   {
+   "file": "tacz-1.20.1-1.1.8-hotfix2.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9037/989/tacz-1.20.1-1.1.8-hotfix2.jar",
+   "sha1": "5c2f72dfe8125ffa863e3b5feafa27d86d7e56ea",
+   "size": 57472579
+  },
+  {
+   "file": "taczaddon-1.1.8.3-forge-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9069/260/taczaddon-1.1.8.3-forge-1.20.1.jar",
+   "sha1": "c8143ed7a91800044166dbb0a6de98e37f9dd441",
+   "size": 495813
+  },
+  {
+   "file": "tacznpcs-2.1.0-1.20.1.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8421/557/tacznpcs-2.1.0-1.20.1.jar",
+   "sha1": "6c54217bc6c15cfe6074ac02031553798b7ea8fa",
+   "size": 84383
+  },
+  {
    "file": "tfmg-1.0.2f.jar",
    "url": "https://mediafilez.forgecdn.net/files/7344/584/tfmg-1.0.2f.jar",
    "sha1": "48e6b058f0d515cbb0e673d823e6e4042f9b1d37",
@@ -904,9 +941,9 @@
   },
   {
    "file": "upgrader-8.1.0.jar",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-12/upgrader-8.1.0.jar",
-   "sha1": "c276763ef5ca501cfeb975acf4e18c36351dec04",
-   "size": 15374674
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-13/upgrader-8.1.0.jar",
+   "sha1": "74ed6108f1bd5d4306dec203211b3b2839458447",
+   "size": 27675711
   },
   {
    "file": "valkyrienskies-120-2.4.11.jar",
