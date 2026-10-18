@@ -1,14 +1,14 @@
 {
- "version": "8.1.2-17",
+ "version": "8.1.2-18",
  "minecraft": "1.20.1",
  "forge": "47.4.10",
  "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
  "launcher": {
   "version": "1.1.0",
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-17/VoidStreetLauncher.exe"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-18/VoidStreetLauncher.exe"
  },
  "config": {
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-17/config.zip",
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-18/config.zip",
   "sha1": "59fddece22b47890a855aa73383f777ed94e67fa"
  },
  "server": {
@@ -22,7 +22,7 @@
  "packs": [
   {
    "name": "tacz",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-17/tacz.zip",
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-18/tacz.zip",
    "sha1": "a3be7d7dc875b53d684ba0862a37dc56a9ad455b"
   }
  ],
@@ -826,6 +826,12 @@
    "size": 15566210
   },
   {
+   "file": "shadedwar-2.4.0-BETA.309.jar",
+   "url": "https://mediafilez.forgecdn.net/files/8824/994/shaded-2.4.0-BETA.309.jar",
+   "sha1": "16e273675b0f21b36972ac238db73381739a7885",
+   "size": 3887903
+  },
+  {
    "file": "silent-lib-1.20.1-8.0.0.jar",
    "url": "https://mediafilez.forgecdn.net/files/4585/754/silent-lib-1.20.1-8.0.0.jar",
    "sha1": "6614c90b3d5b64eaa5509921ee861827c37b9bca",
@@ -947,9 +953,9 @@
   },
   {
    "file": "upgrader-8.1.0.jar",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-17/upgrader-8.1.0.jar",
-   "sha1": "78d9bce71052c02320c8b3a6eeb20e2718600923",
-   "size": 32017303
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-18/upgrader-8.1.0.jar",
+   "sha1": "f9e29835d36557edb3d103e3149ad43c13c52121",
+   "size": 33560284
   },
   {
    "file": "valkyrienskies-120-2.4.11.jar",
