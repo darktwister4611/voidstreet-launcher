@@ -1,15 +1,15 @@
 {
- "version": "8.1.2-19",
+ "version": "8.1.2-20",
  "minecraft": "1.20.1",
  "forge": "47.4.10",
  "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
  "launcher": {
   "version": "1.1.0",
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-19/VoidStreetLauncher.exe"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-20/VoidStreetLauncher.exe"
  },
  "config": {
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-19/config.zip",
-  "sha1": "9787e5e471a401598bcf57e8041d67558d039113"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-20/config.zip",
+  "sha1": "8903c378eed569ce4009d007e728fd5fbf4bfb87"
  },
  "server": {
   "address": "172.27.216.0:25565",
@@ -22,7 +22,7 @@
  "packs": [
   {
    "name": "tacz",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-19/tacz.zip",
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-20/tacz.zip",
    "sha1": "a3be7d7dc875b53d684ba0862a37dc56a9ad455b"
   }
  ],
@@ -953,9 +953,9 @@
   },
   {
    "file": "upgrader-8.1.0.jar",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-19/upgrader-8.1.0.jar",
-   "sha1": "ea4750abbe7df5952c08a55dda301b6b6e7f54c2",
-   "size": 33560286
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-20/upgrader-8.1.0.jar",
+   "sha1": "3beec93f82c14715b944fac76f0d070181001386",
+   "size": 33560291
   },
   {
    "file": "valkyrienskies-120-2.4.11.jar",
