@@ -1,15 +1,15 @@
 {
- "version": "8.1.2-26",
+ "version": "8.1.2-27",
  "minecraft": "1.20.1",
  "forge": "47.4.10",
  "forgeInstaller": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
  "launcher": {
   "version": "1.1.0",
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-26/VoidStreetLauncher.exe"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-27/VoidStreetLauncher.exe"
  },
  "config": {
-  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-26/config.zip",
-  "sha1": "047f31606feb5884c0048d658047d346dcf4cd27"
+  "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-27/config.zip",
+  "sha1": "a3b3ae8f248f5a6ecb3a8b40a6f533caee95274e"
  },
  "server": {
   "address": "172.27.216.0:25565",
@@ -17,12 +17,13 @@
  },
  "remove": [
   "BOMD-*.jar",
-  "CerbonsAPI-*.jar"
+  "CerbonsAPI-*.jar",
+  "dsrebirth-*.jar"
  ],
  "packs": [
   {
    "name": "tacz",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-26/tacz.zip",
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-27/tacz.zip",
    "sha1": "a3be7d7dc875b53d684ba0862a37dc56a9ad455b"
   }
  ],
@@ -532,12 +533,6 @@
    "size": 804529
   },
   {
-   "file": "dsrebirth-1.20.1-1.4.1.jar",
-   "url": "https://mediafilez.forgecdn.net/files/9146/645/dsrebirth-1.20.1-1.4.1.jar",
-   "sha1": "c4bca8dbb4d938ae6ade4b6fc1d795bd0caf7516",
-   "size": 27196693
-  },
-  {
    "file": "dungeons_enhanced-1.20.1-5.4.3.jar",
    "url": "https://mediafilez.forgecdn.net/files/7069/98/dungeons_enhanced-1.20.1-5.4.3.jar",
    "sha1": "18a8163d7b9128959091d9cc95d9a14bd1db25bf",
@@ -953,9 +948,9 @@
   },
   {
    "file": "upgrader-8.1.0.jar",
-   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-26/upgrader-8.1.0.jar",
-   "sha1": "373030bf3de97a7f742ece770dc103ed71f2edfa",
-   "size": 101737297
+   "url": "https://github.com/darktwister4611/voidstreet-launcher/releases/download/v8.1.2-27/upgrader-8.1.0.jar",
+   "sha1": "49a21d4352b4ab5f359b8308df08beb507daf216",
+   "size": 101740839
   },
   {
    "file": "valkyrienskies-120-2.4.11.jar",
